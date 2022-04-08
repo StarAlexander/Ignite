@@ -27,5 +27,5 @@ const currentDay=getCurrentDay()
 const currentDate=`${currentYear}-${currentMonth}-${currentDay}`
 const lastYear=`${currentYear - 1}-${currentMonth}-${currentDay}`
 const nextYear=`${currentYear + 1}-${currentMonth}-${currentDay}`
-const popular_games=`games?dates=${lastYear},${currentDate}&ordering=-rating&page_size=10`
+const popular_games=`games?key=682f268e9f894d2da318a060bef91231&dates=${lastYear},${currentDate}&ordering=-rating&page_size=10`
 export const popularGamesURL=()=>`${base_url}${popular_games}`
